@@ -1116,15 +1116,17 @@ body { animation: pageLoadIn 0.8s ease forwards; }
     width: 90%;
     max-width: 850px;
     max-height: 80vh;
+    min-height: 400px;
     display: flex;
     flex-direction: row;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
     position: relative;
-    transform: translateY(30px) scale(0.96);
-    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Removed transform animation which causes Safari clipping bug with backdrop-filter */
+    margin: auto;
+    z-index: 10001;
 }
 .global-modal.active .modal-content {
-    transform: translateY(0) scale(1);
+    /* No transform needed */
 }
 .modal-close {
     position: absolute;
