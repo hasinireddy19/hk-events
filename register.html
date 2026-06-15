@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS 2026 | Register</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i data-lucide="hexagon"></i>
+                <span>NEXUS</span>
+            </a>
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">About</a>
+                <a href="schedule.html" class="nav-link">Schedule</a>
+                <a href="speakers.html" class="nav-link">Speakers</a>
+                <a href="register.html" class="btn btn-primary nav-btn">Get Tickets</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="about.html" class="mobile-link">About</a>
+            <a href="schedule.html" class="mobile-link">Schedule</a>
+            <a href="speakers.html" class="mobile-link">Speakers</a>
+            <a href="register.html" class="btn btn-primary mobile-btn">Get Tickets</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header dark-bg">
+        <div class="container center animate-on-scroll">
+            <h1 class="hero-title">Secure Your <span class="gradient-text">Ticket</span></h1>
+            <p class="hero-subtitle" style="margin: 0 auto;">Tickets are selling fast. Don't miss out on the tech event of the year.</p>
+        </div>
+    </div>
+
+    <!-- Registration Section -->
+    <section class="register section">
+        <div class="container">
+            <div class="register-grid animate-on-scroll">
+                <div class="register-info">
+                    <div class="ticket-benefits">
+                        <div class="benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Full 2-Day Conference Access</span>
+                        </div>
+                        <div class="benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Access to all workshops & keynotes</span>
+                        </div>
+                        <div class="benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Catered lunch & coffee breaks</span>
+                        </div>
+                        <div class="benefit">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Exclusive afterparty invitation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="price-tag">
+                        <span class="currency">$</span><span class="amount">499</span>
+                        <span class="period">/ person</span>
+                    </div>
+                </div>
+                
+                <div class="register-form-wrapper glass-panel">
+                    <form id="registrationForm" class="register-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" name="email" required placeholder="john@company.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Acme Inc.">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="ticketQuantity">Quantity</label>
+                            <select id="ticketQuantity" name="ticketQuantity">
+                                <option value="1">1 Ticket</option>
+                                <option value="2">2 Tickets</option>
+                                <option value="3">3 Tickets</option>
+                                <option value="4">4 Tickets</option>
+                                <option value="5+">5+ Tickets (Group)</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Complete Registration</button>
+                        <p class="form-disclaimer">By registering, you agree to our Terms of Service and Privacy Policy.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i data-lucide="hexagon"></i>
+                        <span>NEXUS</span>
+                    </a>
+                    <p>The premier conference for tech professionals and designers to connect, learn, and grow.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About</a>
+                    <a href="schedule.html">Schedule</a>
+                    <a href="speakers.html">Speakers</a>
+                    <a href="register.html">Tickets</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>hello@nexusconf.io</p>
+                    <p>1-800-NEXUS-26</p>
+                    <div class="footer-socials">
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NEXUS Conference. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal (Hidden by default) -->
+    <div id="successModal" class="modal">
+        <div class="modal-content glass-panel">
+            <div class="modal-icon success">
+                <i data-lucide="check-circle"></i>
+            </div>
+            <h2>Registration Successful!</h2>
+            <p id="successMessage">Thank you for registering. We've sent your ticket details to your email.</p>
+            <button id="closeModal" class="btn btn-primary">Got it!</button>
+        </div>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>

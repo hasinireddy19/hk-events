@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS 2026 | Schedule</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <i data-lucide="hexagon"></i>
+                <span>NEXUS</span>
+            </a>
+            <div class="nav-links">
+                <a href="about.html" class="nav-link">About</a>
+                <a href="schedule.html" class="nav-link active">Schedule</a>
+                <a href="speakers.html" class="nav-link">Speakers</a>
+                <a href="register.html" class="btn btn-primary nav-btn">Get Tickets</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="about.html" class="mobile-link">About</a>
+            <a href="schedule.html" class="mobile-link">Schedule</a>
+            <a href="speakers.html" class="mobile-link">Speakers</a>
+            <a href="register.html" class="btn btn-primary mobile-btn">Get Tickets</a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header dark-bg">
+        <div class="container center animate-on-scroll">
+            <h1 class="hero-title">Event <span class="gradient-text">Schedule</span></h1>
+            <p class="hero-subtitle" style="margin: 0 auto;">Plan your experience. Two days packed with knowledge and inspiration.</p>
+        </div>
+    </div>
+
+    <!-- Schedule Section -->
+    <section class="schedule section">
+        <div class="container">
+            <div class="schedule-container animate-on-scroll">
+                <div class="schedule-tabs">
+                    <button class="tab-btn active" data-day="day1">Day 1: Oct 15</button>
+                    <button class="tab-btn" data-day="day2">Day 2: Oct 16</button>
+                </div>
+                
+                <div class="schedule-content active" id="day1">
+                    <div class="schedule-item">
+                        <div class="time">09:00 AM</div>
+                        <div class="details">
+                            <h4>Registration & Welcome Breakfast</h4>
+                            <p>Grab your badge, a coffee, and meet your fellow attendees.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">10:00 AM</div>
+                        <div class="details">
+                            <span class="badge badge-keynote">Keynote</span>
+                            <h4>The Future of Generative AI in Design</h4>
+                            <p>Elena Rodriguez, Chief Design Officer @ InnovateHQ</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:30 AM</div>
+                        <div class="details">
+                            <span class="badge badge-panel">Panel</span>
+                            <h4>Building Resilient Frontend Architectures</h4>
+                            <p>Panelists from Vercel, Meta, and Netflix.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">01:00 PM</div>
+                        <div class="details">
+                            <h4>Lunch Break & Networking</h4>
+                            <p>Catered lunch in the main plaza.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:30 PM</div>
+                        <div class="details">
+                            <span class="badge badge-workshop">Workshop</span>
+                            <h4>Mastering CSS Grid and Subgrid</h4>
+                            <p>Interactive session in Room B.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="schedule-content" id="day2">
+                     <div class="schedule-item">
+                        <div class="time">09:30 AM</div>
+                        <div class="details">
+                            <span class="badge badge-keynote">Keynote</span>
+                            <h4>Ethics in Artificial Intelligence</h4>
+                            <p>Dr. Marcus Chen, AI Researcher</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:00 AM</div>
+                        <div class="details">
+                            <span class="badge badge-workshop">Workshop</span>
+                            <h4>Advanced React Patterns for 2026</h4>
+                            <p>Hands-on coding session. Laptop required.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">12:30 PM</div>
+                        <div class="details">
+                            <h4>Lunch Break</h4>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">02:00 PM</div>
+                        <div class="details">
+                            <span class="badge badge-panel">Fireside Chat</span>
+                            <h4>From Startup to Unicorn: The Technical Journey</h4>
+                            <p>Featuring founders of recent successful IPOs.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">04:30 PM</div>
+                        <div class="details">
+                            <h4>Closing Remarks & Afterparty</h4>
+                            <p>Drinks and music at the rooftop lounge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i data-lucide="hexagon"></i>
+                        <span>NEXUS</span>
+                    </a>
+                    <p>The premier conference for tech professionals and designers to connect, learn, and grow.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="about.html">About</a>
+                    <a href="schedule.html">Schedule</a>
+                    <a href="speakers.html">Speakers</a>
+                    <a href="register.html">Tickets</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>hello@nexusconf.io</p>
+                    <p>1-800-NEXUS-26</p>
+                    <div class="footer-socials">
+                        <a href="#"><i data-lucide="twitter"></i></a>
+                        <a href="#"><i data-lucide="linkedin"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NEXUS Conference. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>

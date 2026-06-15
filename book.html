@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Event | HK Events</title>
+    <meta name="description" content="Book your dream celebration with HK Events.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">✦</span>
+                <span class="logo-text">HK<small>Events & Celebrations</small></span>
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="packages.html">Packages</a>
+                <a href="contact.html">Contact</a>
+                <a href="book.html" class="nav-cta">Book Event</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="min-height: 50vh;">
+        <div class="hero-bg fade-in">
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80&w=2000" alt="Celebration">
+        </div>
+        <div class="container">
+            <div class="hero-content" style="text-align: center; max-width: 100%;">
+                <span class="tag fade-up">✦ Let's Begin</span>
+                <h1 class="fade-up" style="transition-delay: 0.15s;">Book Your Event</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="section section-white">
+        <div class="container">
+            <div class="section-title fade-up">
+                <div class="ornament">
+                    <span class="ornament-line"></span>
+                    <span class="ornament-diamond"></span>
+                    <span class="ornament-line"></span>
+                </div>
+                <h2>Share Your Vision With Us</h2>
+                <p>Tell us about your dream celebration and our team will get back to you within 24 hours with a customised plan.</p>
+            </div>
+
+            <div class="form-wrapper fade-up">
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" class="form-control" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" class="form-control" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" class="form-control" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="eventType">Type of Celebration *</label>
+                            <select id="eventType" class="form-control" required>
+                                <option value="" disabled selected>Select your event</option>
+                                <option value="Wedding">Wedding</option>
+                                <option value="Engagement">Engagement / Roka / Nischayathartham</option>
+                                <option value="Birthday">Birthday Party</option>
+                                <option value="Baby Shower">Baby Shower / Valaikappu / Seemantham</option>
+                                <option value="Anniversary">Anniversary Celebration</option>
+                                <option value="Corporate">Corporate Event</option>
+                                <option value="Housewarming">Housewarming / Griha Pravesh</option>
+                                <option value="Other">Other Celebration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventDate">Preferred Date</label>
+                            <input type="date" id="eventDate" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Estimated Guests</label>
+                            <select id="guests" class="form-control">
+                                <option value="" disabled selected>Number of guests</option>
+                                <option value="Under 50">Under 50</option>
+                                <option value="50-100">50 - 100</option>
+                                <option value="100-300">100 - 300</option>
+                                <option value="300-500">300 - 500</option>
+                                <option value="500-1000">500 - 1000</option>
+                                <option value="1000+">1000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Event City</label>
+                            <input type="text" id="city" class="form-control" placeholder="e.g., Bangalore, Chennai, Mumbai">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Dream Celebration</label>
+                        <textarea id="message" class="form-control" placeholder="Share any details — theme ideas, cultural traditions you want to include, special requirements, budget range..." required></textarea>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-maroon" style="margin-top: 1rem; min-width: 250px;">Submit Booking Request</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid fade-up">
+                <div class="footer-brand">
+                    <span class="logo-text">HK<small>Events & Celebrations</small></span>
+                    <p>Turning every celebration into a beautiful memory. We honour every tradition, every culture, every story across India.</p>
+                    <div class="social-links" style="margin-top: 1.5rem;">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Weddings</a></li>
+                        <li><a href="services.html">Birthday Parties</a></li>
+                        <li><a href="services.html">Engagements</a></li>
+                        <li><a href="services.html">Corporate Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Get in Touch</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--gold); margin-right: 0.5rem;"></i> Bangalore, India</li>
+                        <li><i class="fas fa-phone" style="color: var(--gold); margin-right: 0.5rem;"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope" style="color: var(--gold); margin-right: 0.5rem;"></i> hello@dreamday.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 HK Events. All Rights Reserved.</p>
+                <p>Made with ❤️ in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
