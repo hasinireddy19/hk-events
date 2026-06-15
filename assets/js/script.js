@@ -180,25 +180,25 @@ document.addEventListener('DOMContentLoaded', () => {
     /* ---- Dynamic Roadmap Graph Logic ---- */
     const roadmapData = {
         '3': [
-            { day: 'Day 1', title: 'Arrival & Welcome', desc: 'Guests arrive and are welcomed with traditional music and refreshments. An evening of light entertainment and dinner follows.', img: 'wedding-entrance.jpeg' },
-            { day: 'Day 2', title: 'Haldi & Sangeet', desc: 'A vibrant morning Haldi ceremony followed by an energetic evening Sangeet with dance performances and music.', img: 'haldi-decor.jpeg' },
-            { day: 'Day 3', title: 'The Grand Wedding', desc: 'The main wedding ceremony honoring your traditions, followed by a grand reception dinner.', img: 'wedding-floral-stage.jpeg' }
+            { day: 'Day 1', title: 'Arrival & Welcome', desc: 'Guests arrive and are welcomed with traditional music and refreshments. An evening of light entertainment and dinner follows.', img: 'assets/images/wedding-entrance.jpeg' },
+            { day: 'Day 2', title: 'Haldi & Sangeet', desc: 'A vibrant morning Haldi ceremony followed by an energetic evening Sangeet with dance performances and music.', img: 'assets/images/haldi-decor.jpeg' },
+            { day: 'Day 3', title: 'The Grand Wedding', desc: 'The main wedding ceremony honoring your traditions, followed by a grand reception dinner.', img: 'assets/images/wedding-floral-stage.jpeg' }
         ],
         '5': [
-            { day: 'Day 1', title: 'Welcome Dinner', desc: 'An intimate welcome dinner for close family and friends to kickstart the celebrations.', img: 'wedding-entrance.jpeg' },
-            { day: 'Day 2', title: 'Mehendi Ceremony', desc: 'An afternoon dedicated to intricate henna designs, folk songs, and vibrant colors.', img: 'ring-ceremony.jpeg' },
-            { day: 'Day 3', title: 'Haldi & Pool Party', desc: 'A playful Haldi ceremony turning into a relaxed daytime pool party for guests.', img: 'haldi-decor.jpeg' },
-            { day: 'Day 4', title: 'Grand Sangeet', desc: 'A glamorous evening filled with choreographed dances, music, and exquisite dining.', img: 'anniversary-stage.jpeg' },
-            { day: 'Day 5', title: 'Wedding & Reception', desc: 'The sacred wedding rituals followed by a magnificent reception gala.', img: 'wedding-floral-stage.jpeg' }
+            { day: 'Day 1', title: 'Welcome Dinner', desc: 'An intimate welcome dinner for close family and friends to kickstart the celebrations.', img: 'assets/images/wedding-entrance.jpeg' },
+            { day: 'Day 2', title: 'Mehendi Ceremony', desc: 'An afternoon dedicated to intricate henna designs, folk songs, and vibrant colors.', img: 'assets/images/ring-ceremony.jpeg' },
+            { day: 'Day 3', title: 'Haldi & Pool Party', desc: 'A playful Haldi ceremony turning into a relaxed daytime pool party for guests.', img: 'assets/images/haldi-decor.jpeg' },
+            { day: 'Day 4', title: 'Grand Sangeet', desc: 'A glamorous evening filled with choreographed dances, music, and exquisite dining.', img: 'assets/images/anniversary-stage.jpeg' },
+            { day: 'Day 5', title: 'Wedding & Reception', desc: 'The sacred wedding rituals followed by a magnificent reception gala.', img: 'assets/images/wedding-floral-stage.jpeg' }
         ],
         '7': [
-            { day: 'Day 1', title: 'Arrival & Check-in', desc: 'Guests arrive at the destination, welcomed with a traditional Aarti and settling in.', img: 'wedding-entrance.jpeg' },
-            { day: 'Day 2', title: 'Roka / Engagement', desc: 'Formalizing the union with an elegant ring ceremony and family blessings.', img: 'ring-ceremony.jpeg' },
-            { day: 'Day 3', title: 'Mehendi Carnival', desc: 'A carnival-themed Mehendi afternoon with games, food stalls, and music.', img: 'birthday-butterfly.jpeg' },
-            { day: 'Day 4', title: 'Haldi Rituals', desc: 'The traditional Haldi ceremony filled with joy, laughter, and yellow hues.', img: 'haldi-decor.jpeg' },
-            { day: 'Day 5', title: 'Sangeet Night', desc: 'The biggest party night with family performances, a DJ, and a massive dance floor.', img: 'anniversary-stage.jpeg' },
-            { day: 'Day 6', title: 'The Royal Wedding', desc: 'The main event - a royal wedding ceremony with traditional grandeur.', img: 'wedding-floral-stage.jpeg' },
-            { day: 'Day 7', title: 'Farewell Brunch', desc: 'A relaxed morning brunch to thank guests before their departure.', img: 'corporate-event.jpeg' }
+            { day: 'Day 1', title: 'Arrival & Check-in', desc: 'Guests arrive at the destination, welcomed with a traditional Aarti and settling in.', img: 'assets/images/wedding-entrance.jpeg' },
+            { day: 'Day 2', title: 'Roka / Engagement', desc: 'Formalizing the union with an elegant ring ceremony and family blessings.', img: 'assets/images/ring-ceremony.jpeg' },
+            { day: 'Day 3', title: 'Mehendi Carnival', desc: 'A carnival-themed Mehendi afternoon with games, food stalls, and music.', img: 'assets/images/birthday-butterfly.jpeg' },
+            { day: 'Day 4', title: 'Haldi Rituals', desc: 'The traditional Haldi ceremony filled with joy, laughter, and yellow hues.', img: 'assets/images/haldi-decor.jpeg' },
+            { day: 'Day 5', title: 'Sangeet Night', desc: 'The biggest party night with family performances, a DJ, and a massive dance floor.', img: 'assets/images/anniversary-stage.jpeg' },
+            { day: 'Day 6', title: 'The Royal Wedding', desc: 'The main event - a royal wedding ceremony with traditional grandeur.', img: 'assets/images/wedding-floral-stage.jpeg' },
+            { day: 'Day 7', title: 'Farewell Brunch', desc: 'A relaxed morning brunch to thank guests before their departure.', img: 'assets/images/corporate-event.jpeg' }
         ]
     };
 
@@ -258,3 +258,4 @@ document.addEventListener('DOMContentLoaded', () => {
         renderRoadmap('3');
     }
 });
+

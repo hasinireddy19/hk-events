@@ -6,7 +6,7 @@
     <title>Gallery | HK Events</title>
     <meta name="description" content="Browse photos of our beautifully planned Indian celebrations.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
     <!-- Page Hero -->
     <section class="hero" style="min-height: 50vh; background-attachment: fixed;">
         <div class="hero-bg fade-in">
-            <img src="outdoor-wedding.jpeg" alt="Celebration">
+            <img src="assets/images/outdoor-wedding.jpeg" alt="Celebration">
         </div>
         <div class="container">
             <div class="hero-content" style="text-align: center; max-width: 100%;">
@@ -67,68 +67,65 @@
             <!-- Masonry Grid -->
             <div class="gallery-masonry" id="galleryContainer">
                 <div class="gallery-item fade-up" data-category="wedding" onclick="openLightbox(this)">
-                    <img src="wedding-floral-stage.jpeg" alt="South Indian Wedding">
+                    <img src="assets/images/wedding-floral-stage.jpeg" alt="South Indian Wedding">
                     <div class="gallery-caption">
                         <h4>South Indian Wedding</h4>
                         <span>Floral Stage Setup</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="wedding" style="transition-delay: 0.1s;" onclick="openLightbox(this)">
-                    <img src="wedding-entrance.jpeg" alt="Grand Entrance">
+                    <img src="assets/images/wedding-entrance.jpeg" alt="Grand Entrance">
                     <div class="gallery-caption">
                         <h4>Grand Entrance</h4>
                         <span>Arch Decor</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="corporate" style="transition-delay: 0.2s;" onclick="openLightbox(this)">
-                    <img src="corporate-summit.jpeg" alt="Corporate Summit">
+                    <img src="assets/images/corporate-summit.jpeg" alt="Corporate Summit">
                     <div class="gallery-caption">
                         <h4>Annual Business Summit</h4>
                         <span>Stage Setup</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="birthday" onclick="openLightbox(this)">
-                    <img src="birthday-butterfly.jpeg" alt="Birthday Party">
+                    <img src="assets/images/birthday-butterfly.jpeg" alt="Birthday Party">
                     <div class="gallery-caption">
                         <h4>Butterfly Birthday</h4>
                         <span>Themed Decor</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="wedding" style="transition-delay: 0.1s;" onclick="openLightbox(this)">
-                    <img src="ring-ceremony.jpeg" alt="Ring Ceremony">
+                    <img src="assets/images/ring-ceremony.jpeg" alt="Ring Ceremony">
                     <div class="gallery-caption">
                         <h4>Engagement Ceremony</h4>
                         <span>Stage Design</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="wedding" style="transition-delay: 0.2s;" onclick="openLightbox(this)">
-                    <img src="haldi-decor.jpeg" alt="Haldi Decor">
+                    <img src="assets/images/haldi-decor.jpeg" alt="Haldi Decor">
                     <div class="gallery-caption">
                         <h4>Haldi Function</h4>
                         <span>Yellow Themed</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="birthday" onclick="openLightbox(this)">
-                    <img src="baby-shower.jpeg" alt="Baby Shower">
+                    <img src="assets/images/baby-shower.jpeg" alt="Baby Shower">
                     <div class="gallery-caption">
                         <h4>Baby Shower</h4>
                         <span>Pastel Setup</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="corporate" style="transition-delay: 0.1s;" onclick="openLightbox(this)">
-                    <img src="corporate-event.jpeg" alt="Corporate Gala">
+                    <img src="assets/images/corporate-event.jpeg" alt="Corporate Gala">
                     <div class="gallery-caption">
                         <h4>Corporate Gala</h4>
                         <span>Table Setup</span>
                     </div>
                 </div>
                 <div class="gallery-item fade-up" data-category="birthday" style="transition-delay: 0.2s;" onclick="openLightbox(this)">
-                    <img src="gender-reveal.jpeg" alt="Gender Reveal">
+                    <img src="assets/images/gender-reveal.jpeg" alt="Gender Reveal">
                     <div class="gallery-caption">
                         <h4>Gender Reveal</h4>
-                        <span>Balloon Arch</span>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -188,7 +185,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>
         /* Gallery Filters */
         const filterBtns = document.querySelectorAll('.gallery-filter-btn');
@@ -240,3 +237,4 @@
     </script>
 </body>
 </html>
+
